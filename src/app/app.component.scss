@@ -1,0 +1,47 @@
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.mat-calendar-content{
+  height: 320px !important;
+  box-shadow: unset !important;
+  border:unset ;
+}
+
+::ng-deep .mat-calendar {
+  max-height: 370.5px;
+  box-shadow: unset !important;
+  
+}
+
+::ng-deep .mat-datepicker-content {
+  box-shadow: none !important;
+  border: 1px solid rgb(192, 192, 192);
+  border-right:unset;
+  border-radius:unset !important;
+  
+  
+}
+
+::ng-deep .mat-form-field-wrapper{
+  width:450px;
+}
+
+::ng-deep .mat-date-range-input-start-wrapper{
+  display: flex;
+  column-gap: 3px;
+}
+
+::ng-deep .mat-date-range-input-end-wrapper{
+  display: flex;
+  column-gap: 3px;
+}
+
+::ng-deep input.mat-end-date{
+  width:80px;
+}
